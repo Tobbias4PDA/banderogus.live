@@ -1,0 +1,124 @@
+/*==========  Desktop First  ========== */
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .banderogus-container {
+    background: #ffffff;
+    padding: 0 0;
+    align-self: center;
+  }
+
+  .about-me {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .ukr-logo {
+    width: 60px;
+  }
+
+  .victory-bgd {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .modal-form-container {
+    padding: 32px 32px 32px 32px;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .main-page {
+    background: linear-gradient(270deg, #a4deff 0%, #fcfeff 100%);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .banderogus-container {
+    background: #ffffff;
+    padding: 16px 16px;
+    align-self: flex-start;
+  }
+
+  .banderogus-start-text {
+    color: #ff6b0a;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  .banderogus-title {
+    color: #151517;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 60px;
+  }
+
+  .banderogus-img {
+    position: absolute;
+    width: 300px;
+    align-self: flex-end;
+  }
+
+  .gus-facts {
+    padding: 42px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gus-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 24px;
+    color: #151517;
+    margin: 4px 0 20px 0;
+  }
+
+  .gus-facts-description {
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+  }
+
+  .banderogus-container {
+    background: #ffffff;
+    padding: 4px 20px;
+    align-self: center;
+  }
+  /* */
+}
